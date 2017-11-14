@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get install nfs-common
 sudo su
 echo "centralrepo.localdomain:/opt/scripts /opt/scripts nfs   defaults        0       0" >> /etc/fstab
-exit
+sudo su tibco
 sudo mkdir /opt/installers
 sudo mkdir /opt/scripts
 chown -r tibco:tibco /opt/installers
